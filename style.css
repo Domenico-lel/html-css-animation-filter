@@ -60,7 +60,7 @@
     height: 60px;
     background: red;
     transition: all 1s ease;
-     transform: scale(1);
+    transform: scale(1);
 }
 .ex-5-square:hover{
     background-color: red;
@@ -88,13 +88,13 @@
 
 /*es.8*/
 .ex-8-img{
-    transition: all 0.5s ease 0s;
+    transition: all 1s ease 0s;
 
     transition:3s;
 }
 
 .ex-8-img:hover{
-    filter:hue-rotate(90deg) grayscale(1) ;
+    filter:sepia(9) grayscale(1) ;
     border-radius:  10% 10% 10% 10%;
 }
 /*es.8*/
@@ -106,7 +106,15 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 2s ease 0s;
 }
+
+.ex-9-img:hover{
+    transform: scale(1.5);
+    border-radius:  10% 10% 10% 10%;
+    filter:sepia(9) grayscale(1) ;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
