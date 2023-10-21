@@ -70,9 +70,34 @@
 
 /*es.6*/
 .ex-6-img:hover{
-    filter:grayscale(1) ;
+    filter: grayscale(1);
 }
 /*es.6*/
+
+/*es.7*/
+.ex-7-img{
+    transition: all 0.5s ease 0s;
+    transition:3.5s;
+}
+
+.ex-7-img:hover{
+    filter:grayscale(1)  hue-rotate(90deg) ;
+}
+/*es.7*/
+
+
+/*es.8*/
+.ex-8-img{
+    transition: all 0.5s ease 0s;
+
+    transition:3s;
+}
+
+.ex-8-img:hover{
+    filter:hue-rotate(90deg) grayscale(1) ;
+    border-radius:  10% 10% 10% 10%;
+}
+/*es.8*/
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
