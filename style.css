@@ -120,13 +120,48 @@
 /*es.10*/
 .ex-10-icon {
     font-size: 60px; 
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
 }
 
 /*es.10*/
 
-.ex-11-icon {
+
+/*es.11*/
+
+.ex-11-icon{
     font-size: 60px;
+
 }
+
+.ex-11-icon:hover{
+    font-size: 60px;
+    animation-duration: 2s;
+    animation: spinalcontrario 2s linear;
+}
+
+@keyframes spinalcontrario{
+    0% {
+        transform: hue-rotate(1turn);
+    }
+    
+    90% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+    
+}
+
+/*es.11*/
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
